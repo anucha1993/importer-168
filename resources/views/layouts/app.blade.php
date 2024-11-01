@@ -7,12 +7,13 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-white text-gray-900">
                
     @include('partials.header')
     @include('partials.menu')
 
-    <div class="container mx-auto mt-4">
+    {{-- <div class="container mx-auto mt-4"> --}}
+        <div class="">
         @yield('content')
     </div>
 
