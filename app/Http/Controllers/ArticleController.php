@@ -1,0 +1,105 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Article;
+use App\Models\Category;
+use App\Models\ArticleImage;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
+class ArticleController extends Controller
+{
+    //
+
+    public function index()
+    {
+        $articles = Article::with('category')->latest()->get();
+        return view('articles.index', compact('articles'));
+    }
+
+    public function create()
+    {
+        $categories = Category::all();
+        return view('articles.create', compact('categories'));
+    }
+
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'content' => 'required',
+            'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // ตรวจสอบไฟล์ภาพที่อัปโหลด
+        ]);
+
+        // กำหนดค่า default ให้กับ imagePath
+        $imagePath = null;
+
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+            $fileName = time() . '_' . $file->getClientOriginalName();
+            $filePath = $file->storeAs('uploads', $fileName, 'public');
+
+            // กำหนด path สำหรับบันทึกในฐานข้อมูล โดยไม่ใช้ Storage::url()
+            $imagePath = 'storage/uploads/' . $fileName;
+        }
+
+        // บันทึกข้อมูลบทความลงใน articles รวมถึง path ของรูปภาพ
+        $article = Article::create([
+            'title' => $request->title,
+            'content' => $request->content,
+            'image_path' => $imagePath, // บันทึก path ของรูปภาพใน articles
+            'category_id' => $request->category_id,
+        ]);
+
+        return redirect()->route('articles.index')->with('success', 'Article created successfully with image.');
+    }
+
+    public function show($id)
+    {
+        $article = Article::with('category')->findOrFail($id);
+        return view('articles.show', compact('article'));
+    }
+
+    public function edit($id)
+    {
+        $article = Article::findOrFail($id);
+        $categories = Category::all();
+        return view('articles.edit', compact('article', 'categories'));
+    }
+
+    public function update(Request $request, $id)
+{
+    $request->validate([
+        'title' => 'required|string|max:255',
+        'content' => 'required',
+        'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+    ]);
+
+    $article = Article::findOrFail($id);
+
+    // เตรียมข้อมูลสำหรับการอัปเดต
+    $updateData = [
+        'title' => $request->title,
+        'content' => $request->content,
+        'category_id' => $request->category_id,
+    ];
+
+    // ตรวจสอบว่ามีการอัปโหลดรูปภาพใหม่หรือไม่
+    if ($request->hasFile('image')) {
+        $file = $request->file('image');
+        $fileName = time() . '_' . $file->getClientOriginalName();
+        $filePath = $file->storeAs('uploads', $fileName, 'public');
+
+        // กำหนด path สำหรับบันทึกในฐานข้อมูล โดยไม่ใช้ Storage::url()
+        $updateData['image_path'] = 'storage/uploads/' . $fileName;
+    }
+
+    // อัปเดตข้อมูลทั้งหมดในคราวเดียว
+    $article->update($updateData);
+
+    return redirect()->route('articles.index')->with('success', 'Article updated successfully.');
+}
+
+}
