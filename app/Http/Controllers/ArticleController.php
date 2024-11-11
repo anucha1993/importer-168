@@ -27,10 +27,11 @@ class ArticleController extends Controller
 
     public function store(Request $request)
     {
+        //dd($request);
         $request->validate([
             'title' => 'required|string|max:255',
             'content' => 'required',
-            'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // ตรวจสอบไฟล์ภาพที่อัปโหลด
+            'image' => 'image|mimes:jpeg,png,jpg,gif,webp|max:2048', // ตรวจสอบไฟล์ภาพที่อัปโหลด
         ]);
 
         // กำหนดค่า default ให้กับ imagePath

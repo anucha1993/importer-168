@@ -126,48 +126,53 @@
             
             <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <!-- Service 1 -->
+
                 <div class="bg-white rounded-lg shadow-md p-6 text-left">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png" alt="Service 1" class="mb-4 rounded-lg w-full">
+                    <img src="{{url('./storage/uploads/1731313859_บริการนำเข้าแรงงานต่างด้าวMOU.webp')}}" alt="Service 1" class="mb-4 rounded-lg w-full">
                     <div class="flex items-center mb-2">
                         <img src="./images/contact/impoter-จิรวัฒน์.svg" alt="Author 1" class="w-8 h-8 rounded-full mr-2">
                         <div>
                             <p class="text-gray-900 font-medium">จิรวัฒน์</p>
-                            <p class="text-gray-500 text-sm">Aug 15, 2021 · 16 min read</p>
+                            <p class="text-gray-500 text-sm"> 15 สิงหาคม 2024 · 16 min read</p>
                         </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">นำเข้าแรงงานต่างด้าว</h3>
-                    <p class="text-gray-700 mb-4">บริการนำเข้าแรงงานต่างด้าวจากประเทศเพื่อนบ้านอย่างถูกต้องตามกฎหมาย พร้อมการดูแลที่ครบวงจร.</p>
-                    <a href="#" class="text-blue-600 hover:underline font-medium">อ่านเพิ่มเติม →</a>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">การนำเข้าแรงงานต่างด้าวตามระบบ MOU เพื่อการทำงานในประเทศไทย</h3>
+                    <p class="text-gray-700 mb-4">
+                        ระบบ MOU มีวัตถุประสงค์หลักในการส่งเสริมการนำเข้าแรงงานต่างด้าวอย่างถูกกฎหมาย ซึ่งมีขั้นตอนที่ชัดเจนในการตรวจสอบประวัติและคัดกรองแรงงานเพื่อป้องกันปัญหาการลักลอบนำเข้าแรงงาน
+                    </p>
+                    <a href="{{url('articles/4')}}" class="text-blue-600 hover:underline font-medium">อ่านเพิ่มเติม →</a>
                 </div>
-    
+
                 <!-- Service 2 -->
                 <div class="bg-white rounded-lg shadow-md p-6 text-left">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-2.png" alt="Service 2" class="mb-4 rounded-lg w-full">
+                    <img src="{{url('storage/uploads/1731308241_บนจ. (3).webp')}}" alt="Service 2" class="mb-4 rounded-lg w-full">
                     <div class="flex items-center mb-2">
                         <img src="/images/contact/importer-สุจิตา.svg" alt="Author 2" class="w-8 h-8 rounded-full mr-2">
                         <div>
                             <p class="text-gray-900 font-medium">สุจิตา</p>
-                            <p class="text-gray-500 text-sm">Aug 15, 2021 · 16 min read</p>
+                            <p class="text-gray-500 text-sm"> 05 ตุลาคม 2024 · 5 min read</p>
                         </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">ต่ออายุเอกสารแรงงาน</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">การต่อวีซ่า(ปีที่3-4) แรงงานต่างด้าว MOU ที่ครบ 2 ปี ในประเทศไทย</h3>
                     <p class="text-gray-700 mb-4">บริการต่ออายุเอกสารแรงงานต่างด้าว ครอบคลุมทุกขั้นตอนที่จำเป็นในการทำให้ถูกต้องตามกฎหมาย.</p>
-                    <a href="#" class="text-blue-600 hover:underline font-medium">อ่านเพิ่มเติม →</a>
+                    <a href="{{url('articles/3')}}" class="text-blue-600 hover:underline font-medium">อ่านเพิ่มเติม →</a>
                 </div>
     
                 <!-- Service 3 -->
                 <div class="bg-white rounded-lg shadow-md p-6 text-left">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-3.png" alt="Service 3" class="mb-4 rounded-lg w-full">
+                    <img src="{{url('./storage/uploads/3ข้อควรรู้ก่อนรายงานตัว90วัน.webp')}}" alt="Service 3" class="mb-4 rounded-lg w-full">
                     <div class="flex items-center mb-2">
                         <img src="./images/contact/impoter-พัชรีพร.svg" alt="Author 3" class="w-8 h-8 rounded-full mr-2">
                         <div>
                             <p class="text-gray-900 font-medium">พัชรีพร</p>
-                            <p class="text-gray-500 text-sm">Aug 15, 2021 · 16 min read</p>
+                            <p class="text-gray-500 text-sm">11 พฤศจิการยน 2024 · 20 min read</p>
                         </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">บริการแรงงานกึ่งซับคอนแทรค</h3>
-                    <p class="text-gray-700 mb-4">เราให้บริการแรงงานกึ่งซับคอนแทรคเตอร์ เพื่อช่วยให้คุณลดภาระการจัดการแรงงานในธุรกิจ.</p>
-                    <a href="#" class="text-blue-600 hover:underline font-medium">อ่านเพิ่มเติม →</a>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">3 ข้อความรู้ก่อน การรายงานตัว 90 วัน</h3>
+                    <p class="text-gray-700 mb-4">
+                        การรายงานตัว 90 วันเป็นขั้นตอนสำคัญที่แรงงานต่างด้าวทุกคนที่อาศัยและทำงานในประเทศไทยต้องปฏิบัติตาม เพื่อให้แน่ใจว่าการอยู่อาศัยในประเทศเป็นไปตามกฎหมายที่กำหนด
+                    </p>
+                    <a href="{{url('articles/2')}}" class="text-blue-600 hover:underline font-medium">อ่านเพิ่มเติม →</a>
                 </div>
             </div>
         </div>
