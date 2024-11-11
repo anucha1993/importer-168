@@ -52,7 +52,7 @@
 <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse ">
-            <img src="{{URL::asset('./logo/logo-2-min.png')}}" alt="Flowbite Logo" style="width: 90px; top: -200px;" />
+            <img src="{{ url('logo/logo-2-min.png') }}" alt="Flowbite Logo" style="width: 90px; top: -200px;" />
             <span class="self-center text-2lg font-semibold whitespace-nowrap dark:text-white text-">
                 <p>บริษัทนำคนต่างด้าวมาทำงานในประเทศ</p>
                 <p style="font-size: 24px" class="text-blue-900">ดิ อิมพอร์ตเตอร์ 168 จำกัด</p>
