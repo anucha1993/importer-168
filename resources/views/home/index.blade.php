@@ -128,7 +128,9 @@
                 <!-- Service 1 -->
 
                 <div class="bg-white rounded-lg shadow-md p-6 text-left">
+                    <a href="{{url('articles/4')}}">
                     <img src="{{url('./storage/uploads/1731313859_บริการนำเข้าแรงงานต่างด้าวMOU.webp')}}" alt="Service 1" class="mb-4 rounded-lg w-full">
+                </a>
                     <div class="flex items-center mb-2">
                         <img src="./images/contact/impoter-จิรวัฒน์.svg" alt="Author 1" class="w-8 h-8 rounded-full mr-2">
                         <div>
@@ -145,7 +147,9 @@
 
                 <!-- Service 2 -->
                 <div class="bg-white rounded-lg shadow-md p-6 text-left">
+                    <a href="{{url('articles/3')}}">
                     <img src="{{url('storage/uploads/1731308241_บนจ. (3).webp')}}" alt="Service 2" class="mb-4 rounded-lg w-full">
+                    </a>
                     <div class="flex items-center mb-2">
                         <img src="/images/contact/importer-สุจิตา.svg" alt="Author 2" class="w-8 h-8 rounded-full mr-2">
                         <div>
@@ -160,7 +164,9 @@
     
                 <!-- Service 3 -->
                 <div class="bg-white rounded-lg shadow-md p-6 text-left">
+                    <a href="{{url('articles/2')}}">
                     <img src="{{url('./storage/uploads/3ข้อควรรู้ก่อนรายงานตัว90วัน.webp')}}" alt="Service 3" class="mb-4 rounded-lg w-full">
+                    </a>
                     <div class="flex items-center mb-2">
                         <img src="./images/contact/impoter-พัชรีพร.svg" alt="Author 3" class="w-8 h-8 rounded-full mr-2">
                         <div>
@@ -327,20 +333,28 @@
     <div class="px-4 mx-auto max-w-screen-xl ">
         <h2 class="mb-8 text-2xl font-bold text-gray-900 dark:text-white ">บริการของเรา และข่าวสาร</h2>
         <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
+
+
+            @foreach ($articles as $article)
+                
             <article class="max-w-xs">
-                <a href="#">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png" class="mb-5 rounded-lg" alt="Image 1">
+                <a href="{{url('articles/'.$article->id)}}">
+                    <img src="{{url($article->image_path)}}" class="mb-5 rounded-lg" alt="Image 1">
                 </a>
-                <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
-                    <a href="#">มติ ครม. 24 ก.ย.2567</a>
-                </h2>
+                <h5 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                    <a href="#">{{$article->title}}</a>
+                </h5>
+                
                 <p class="mb-4 text-gray-500 dark:text-gray-400">
-                    การเปิดขึ้นทะเบียนแรงงานต่างด้าว 2567 โดยยังไม่สามารถดำเนินการได้ ณ ตอนนี้ ต้องรอประกาศกระทรวงแรงงานและ....</p>
-                <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                    {!! Str::limit(strip_tags(preg_replace('/<img[^>]+>/i', '', $article->content)), 120) !!}
+                </p>
+                <a href="{{url('articles/'.$article->id)}}" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
                     อ่านเพิ่มเติม..
                 </a>
             </article>
-            <article class="max-w-xs">
+            @endforeach
+
+            {{-- <article class="max-w-xs">
                 <a href="#">
                     <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-2.png" class="mb-5 rounded-lg" alt="Image 2">
                 </a>
@@ -375,7 +389,7 @@
                 <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
                     อ่านเพิ่มเติม..
                 </a>
-            </article>
+            </article> --}}
         </div>
     </div>
 
