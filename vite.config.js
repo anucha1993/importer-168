@@ -1,5 +1,7 @@
+// ในไฟล์ Vite config
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import path from 'path';
 
 export default defineConfig({
     plugins: [
@@ -10,11 +12,8 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '~': '/node_modules'
+            '~': '/node_modules',
+            '@': path.resolve(__dirname, 'resources')
         }
-    },
-    build: {
-        outDir: 'public/build', // กำหนด output ไปที่ public/build
-        manifest: true,
     },
 });
