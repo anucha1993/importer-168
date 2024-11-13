@@ -192,23 +192,23 @@
             <h5 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-blue-900 dark:text-white md:text-4xl">ลูกค้าที่ไว้วางใจเรา</h5>
             <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
                 <a href="javascript:void(0)" class="flex justify-center items-center">
-                    <img src="{{url('logo-customers/Logo-Tyson.svg')}}" alt="Author 3" class="rounded-full mr-2" width="150">                        
+                    <img src="{{url('logo-customers/Logo-Tyson.svg')}}" alt="ลูกค้านำเข้าMOU" class="rounded-full mr-2" width="150">                        
                 </a>
                 <a href="javascript:void(0)" class="flex justify-center items-center">
-                    <img src="{{url('logo-customers/Logo-Foodland.svg')}}" alt="Author 3" class="rounded-full mr-2" width="150">                        
+                    <img src="{{url('logo-customers/Logo-Foodland.svg')}}" alt="ลูกค้านำเข้า คนต่างด้าวMOU" class="rounded-full mr-2" width="150">                        
                 </a>
                 
                 <a href="javascript:void(0)" class="flex justify-center items-center">
-                    <img src="{{url('logo-customers/Logo-เอพลัส.svg')}}" alt="Author 3" class="rounded-full mr-2" width="150">                        
+                    <img src="{{url('logo-customers/Logo-เอพลัส.svg')}}" alt="ลูกค้านำเข้า คนต่างด้าวMOU" class="rounded-full mr-2" width="150">                        
                 </a>
                 <a href="javascript:void(0)" class="flex justify-center items-center">
-                    <img src="{{url('logo-customers/Logo-AJPLAST.svg')}}" alt="Author 3" class="rounded-full mr-2" width="150">                        
+                    <img src="{{url('logo-customers/Logo-AJPLAST.svg')}}" alt="ลูกค้านำเข้า คนต่างด้าวMOU" class="rounded-full mr-2" width="150">                        
                 </a>
                 <a href="javascript:void(0)" class="flex justify-center items-center">
-                    <img src="{{url('logo-customers/Logo-colt.svg')}}" alt="Author 3" class="rounded-full mr-2" width="150">                        
+                    <img src="{{url('logo-customers/Logo-colt.svg')}}" alt="ลูกค้านำเข้า คนต่างด้าวMOU" class="rounded-full mr-2" width="150">                        
                 </a>
                 <a href="javascript:void(0)" class="flex justify-center items-center">
-                    <img src="{{url('logo-customers/Logo-DominoPizza.svg')}}" alt="Author 3" class="rounded-full mr-2" width="150">                        
+                    <img src="{{url('logo-customers/Logo-DominoPizza.svg')}}" alt="ลูกค้านำเข้า คนต่างด้าวMOU" class="rounded-full mr-2" width="150">                        
                 </a>
                 
             </div>
