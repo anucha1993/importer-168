@@ -10,8 +10,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin')({
-      charts: true, // Enable chart support
-    })
+    require('flowbite/plugin')
   ],
-};
+}
