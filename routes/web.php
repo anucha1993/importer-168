@@ -18,9 +18,9 @@ use App\Http\Controllers\ImageUploadController;
 */
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 // Route::get('/home', function () {
 //     return view('home/index');
 // });
