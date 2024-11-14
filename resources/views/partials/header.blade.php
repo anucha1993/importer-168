@@ -49,3 +49,18 @@
   ]
 }
 </script>
+
+<style>
+  /* ตั้งค่าเริ่มต้นสำหรับมือถือ */
+  #animation-carousel {
+      margin-top: -50px;
+  }
+
+  /* สำหรับ Desktop และ Tablet จอใหญ่กว่า 768px */
+  @media (min-width: 768px) {
+      #animation-carousel {
+          margin-top: 0px;
+      }
+  }
+  
+</style>

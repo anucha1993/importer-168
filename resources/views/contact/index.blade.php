@@ -1,19 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <style>
-        /* สำหรับ Desktop และ Tablet จอใหญ่กว่า 768px */
-        #animation-carousel {
-            margin-top: -29px;
-        }
-         /* สำหรับ Desktop และ Tablet จอใหญ่กว่า 768px */
-         @media (min-width: 768px) {
-            #animation-carousel {
-                margin-top: 0px;
-            }
-            
-        }
-    </style>
+   
 
     {{-- <div id="animation-carousel" class="relative w-full mx-auto max-w-screen-xl" data-carousel="static">
         <!-- Carousel wrapper -->
