@@ -71,7 +71,7 @@
     </div>
 </nav>
 
-<nav class="bg-gray-50 border-gray-200 dark:bg-gray-900">
+<nav class="bg-gray-50 border-gray-200 dark:bg-gray-900" style="z-index: 90000">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="{{ url('logo/logo-2-min.png') }}" alt="Flowbite Logo" width="70px" />

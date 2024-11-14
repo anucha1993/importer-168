@@ -11,9 +11,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        rollupOptions: {
-            external: ['alpinejs'], // เพิ่มการตั้งค่านี้
-        },
-    },
 });
