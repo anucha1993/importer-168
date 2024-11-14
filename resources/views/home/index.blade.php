@@ -1,20 +1,19 @@
-@extends('layouts.app')
+@extends('layouts.app-labour')
 
 @section('content')
 
-    
+<br>
     
       <div id="animation-carousel"class="relative w-full mx-auto max-w-screen-xl " data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
 
-            <div class="hidden duration-200 ease-linear" data-carousel-item>
-                <img src="./carousel/รับบริการด้านเอกสารแรงงานต่างด้าว-2-importer168.webp"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="รับบริการด้านเอกสารแรงงานต่างด้าว">
+            <div class="duration-200 ease-linear" data-carousel-item style="display: block;">
+                <img src="{{ url('carousel/รับบริการด้านเอกสารแรงงานต่างด้าว-2-importer168.webp') }}"
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
-            
             <div class="hidden duration-200 ease-linear" data-carousel-item>
-                <img src="./carousel/รับบริการด้านเอกสารแรงงานต่างด้าว-importer168.webp "
+                <img src="{{url('carousel/รับบริการด้านเอกสารแรงงานต่างด้าว-importer168.webp')}}"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="บริการนำเข้าแรงงานต่างด้าวMOU">
             </div>
             
@@ -98,15 +97,8 @@
                 </div>
             </div>
         </div>
-       
-        
+    
     </section>
-
-
-    
-
-
-    
 
     <section class="py-12 bg-white mt-[-50px]">
         <div class="max-w-screen-xl mx-auto px-4 text-center">
@@ -118,15 +110,15 @@
                     <a href="{{url('articles/4')}}">
                     <img src="{{url('./storage/uploads/1731313859_บริการนำเข้าแรงงานต่างด้าวMOU.webp')}}" alt="บริการนำเข้าแรงงานต่างด้าวMOU นำเข้าแรงงานต่างด้าวถูกกฎหมาย" class="mb-4 rounded-lg w-full">
                 </a>
+
                     <div class="flex items-center mb-2">
                         <img src="./images/contact/impoter-จิรวัฒน์.svg" alt="จิรวัฒน์" class="w-8 h-8 rounded-full mr-2">
-
                         <div>
                             <p class="text-gray-900 font-medium">จิรวัฒน์</p>
                             <p class="text-gray-500 text-sm"> 15 สิงหาคม 2024 · 16 min read</p>
                         </div>
-
                     </div>
+
                     <h3 class="text-xl font-bold text-gray-900 mb-2">การนำเข้าแรงงานต่างด้าวตามระบบ MOU เพื่อการทำงานในประเทศไทย</h3>
                     <p class="text-gray-700 mb-4">
                         ระบบ MOU มีวัตถุประสงค์หลักในการส่งเสริมการนำเข้าแรงงานต่างด้าวอย่างถูกกฎหมาย ซึ่งมีขั้นตอนที่ชัดเจนในการตรวจสอบประวัติและคัดกรองแรงงานเพื่อป้องกันปัญหาการลักลอบนำเข้าแรงงาน

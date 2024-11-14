@@ -103,4 +103,24 @@ class ArticleController extends Controller
     return redirect()->route('articles.index')->with('success', 'Article updated successfully.');
 }
 
+public function destroy($id)
+{
+    $article = Article::findOrFail($id);
+
+    // ตรวจสอบและลบไฟล์รูปภาพที่เกี่ยวข้อง (ถ้ามี)
+    if ($article->image_path) {
+        // ลบไฟล์จาก storage โดยใช้เส้นทางที่บันทึกในฐานข้อมูล
+        $filePath = str_replace('storage/', 'public/', $article->image_path); // เปลี่ยนเส้นทางให้ตรงกับโฟลเดอร์จริง
+        Storage::delete($filePath);
+    }
+
+    // ลบข้อมูลบทความ
+    $article->delete();
+
+    return redirect()->route('articles.index')->with('success', 'Article deleted successfully.');
+}
+
+
+
+
 }
