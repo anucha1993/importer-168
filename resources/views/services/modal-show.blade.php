@@ -3,7 +3,7 @@
     <!-- คอลัมน์ซ้าย: รูปภาพประกอบและรายละเอียด -->
     <div class="lg:col-span-2 space-y-4">
         <!-- รูปภาพ -->
-        <div class="flex justify-center mb-4">
+        <div class="flex justify-center mb-4 mt-4">
             <img src="{{ url('storage/uploads/1731313859_บริการนำเข้าแรงงานต่างด้าวMOU.webp') }}" alt="ประกอบการให้บริการแรงงานต่างด้าว" class="w-full h-auto rounded-lg shadow-md">
         </div>
 
