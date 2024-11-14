@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ImageUploadController;
+use App\Http\Controllers\serviceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,4 +40,7 @@ Route::resource('articles', ArticleController::class);
 
 // Image upload
 Route::post('/ckeditor/upload', [ImageUploadController::class, 'upload'])->name('ckeditor.upload');
+
+//บริการของเรา
+Route::resource('services',serviceController::class);
 
