@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    {{-- <style>
+    <style>
         /* ตั้งค่าเริ่มต้นสำหรับมือถือ */
         #animation-carousel {
             margin-top: -50px;
@@ -14,7 +14,7 @@
             }
         }
         
-    </style> --}}
+    </style>
     
     
       <div id="animation-carousel"class="relative w-full mx-auto max-w-screen-xl " data-carousel="slide">

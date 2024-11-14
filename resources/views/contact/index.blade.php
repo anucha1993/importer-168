@@ -33,7 +33,7 @@
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
             <div class="duration-200 ease-linear" data-carousel-item style="display: block;">
-                <img src="./carousel/ธัญพิมล.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="./carousel/ธัญพิมล.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
     </div>
