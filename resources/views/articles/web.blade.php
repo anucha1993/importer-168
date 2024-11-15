@@ -101,16 +101,12 @@
                                 <span
                                     class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">{{ $article->category->name }}</span>
 
-
                                 <div class="flex items-center justify-end gap-1">
-
                                     <div id="tooltip-quick-look" role="tooltip"
                                         class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700"
                                         data-popper-placement="top">
                                         Quick look
-
                                     </div>
-
                                 </div>
                             </div>
 

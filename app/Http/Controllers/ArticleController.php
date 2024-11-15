@@ -14,7 +14,7 @@ class ArticleController extends Controller
 
     public function index()
     {
-        $articles = Article::with('category')->latest()->get();
+        $articles = Article::with('category')->latest()->limit(4)->get();
         return view('articles.index', compact('articles'));
     }
 
@@ -65,14 +65,16 @@ class ArticleController extends Controller
 
     public function show($id)
     {
+        $articles = Article::with('category')->latest()->limit(4)->get();
         $article = Article::with('category')->findOrFail($id);
-        return view('articles.show', compact('article'));
+        return view('articles.show', compact('article','articles'));
     }
 
     public function edit($id)
     {
         $article = Article::findOrFail($id);
         $categories = Category::all();
+
         return view('articles.edit', compact('article', 'categories'));
     }
 
