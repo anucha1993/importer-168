@@ -18,6 +18,12 @@ class ArticleController extends Controller
         return view('articles.index', compact('articles'));
     }
 
+    public function web()
+    {
+        $articles = Article::with('category')->latest()->get();
+        return view('articles.web', compact('articles'));
+    }
+
     public function create()
     {
         $categories = Category::all();

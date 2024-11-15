@@ -10,7 +10,7 @@ class HomeController extends Controller
     //
     public function index()
     {
-        $articles = Article::with('category')->latest()->get();
+        $articles = Article::with('category')->latest()->limit(4)->get();
         return view('home.index',compact('articles'));
     }
 

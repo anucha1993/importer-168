@@ -44,6 +44,7 @@ Route::get('contact',[ContactController::class,'index'])->name('contact');
 
 // Route::resource('/backend/articles', ArticleController::class);
 Route::get('articles/{id}',[ArticleController::class,'show'])->name('articles.show');
+Route::get('articles',[ArticleController::class,'web'])->name('articles.web');
 
 Route::middleware('auth')->group(function () {
     Route::get('/backend/articles/',[ArticleController::class,'index'])->name('articles.index');
