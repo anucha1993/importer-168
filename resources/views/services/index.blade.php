@@ -34,10 +34,12 @@
             </div>
 
             <div class="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-4 xl:grid-cols-3">
+                @foreach ($services as $service)
+                    
                 <div class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
 
                     <div class="flex justify-center mx-4 items-center">
-                        <img src="{{ url('storage/uploads/1731313859_บริการนำเข้าแรงงานต่างด้าวMOU.webp') }}" alt="ประกอบการให้บริการแรงงานต่างด้าว" class="w-full w-5 rounded-lg shadow-md">
+                        <img src="{{ url($service->image_path) }}" alt="ประกอบการให้บริการแรงงานต่างด้าว" class="rounded-lg shadow-md" style="width: 1800px">
                     </div>
                     
                     <div class="pt-6">
@@ -60,13 +62,13 @@
 
 
                         <h2 class="ext-lg font-semibold leading-tight text-gray-900 dark:text-white">
-                            นำเข้าแรงงานคนใหม่ MOU ถูกกฎหมาย
+                           {!! $service->name !!}
                         </h2>
 
                         <div class="mt-2 flex items-center gap-2">
                             <div class="flex items-center">
-                                ระบบ MOU มีวัตถุประสงค์หลักในการส่งเสริมการนำเข้าแรงงานต่างด้าวอย่างถูกกฎหมาย
-                                ซึ่งมีขั้นตอนที่ชัดเจนในการตรวจสอบประวัติและคัดกรองแรงงาน
+                                {!! Str::limit(strip_tags(preg_replace('/<img[^>]+>/i', '', $service->details)), 150) !!}
+                               
                             </div>
                         </div>
                         <ul class="mt-2 flex items-center gap-4">
@@ -77,16 +79,26 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
                                         d="M8 7V6c0-.6.4-1 1-1h11c.6 0 1 .4 1 1v7c0 .6-.4 1-1 1h-1M3 18v-7c0-.6.4-1 1-1h11c.6 0 1 .4 1 1v7c0 .6-.4 1-1 1H4a1 1 0 0 1-1-1Zm8-3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
                                 </svg>
-                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">ระยะเวลา 15-30 วัน ทำการ</p>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400"> {!! $service->nationality !!}</p>
                             </li>
                         </ul>
                         <div class="mt-4 flex items-center justify-between gap-4">
                             <div class="flex items-center mb-2">
-                                <img src="{{ url('flag/พม่า.png') }}" alt="นำเข้าแรงงานพม่าmou" class="w-8 h-6 mx-1">
-                                <img src="{{ url('flag/กัมพูชา.png') }}" alt="นำเข้าแรงงานกัมพูชาmou" class="w-8 h-6 mx-1">
-                                <img src="{{ url('flag/ลาว.png') }}" alt="นำเข้าแรงงานลาวmou" class="w-8 h-6 mx-1">
+                                @php
+                                $flags = json_decode($service->flag, true); // แปลง JSON เป็น array
+                            @endphp
+                        
+                            @if (is_array($flags))
+                                @foreach ($flags as $flag)
+                                    <img src="{{ url($flag) }}" alt="นำเข้าแรงงานพม่าmou" class="w-8 h-6 mx-1">
+                                @endforeach
+                            @else
+                                <p>ไม่มีรูปภาพ</p>
+                            @endif
+
+                             
                             </div>
-                            <a href="javascript:void(0);" data-id="{{ 1 }}" data-modal-target="import-modal"
+                            <a href="javascript:void(0);" data-id="{{ $service->id }}" data-modal-target="import-modal"
                                 data-modal-toggle="import-modal"
                                 class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 modal-trigger">
                                 ดูรายละเอียด
@@ -95,6 +107,7 @@
                     </div>
 
                 </div>
+                @endforeach
 
 
     </section>
@@ -107,14 +120,12 @@
         <div class="relative p-4 w-full max-w-4xl h-full md:h-auto ">
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 ">
                 <!-- Modal Header -->
-                <div class="flex justify-between items-start p-4 border-b border-gray-300 dark:border-gray-700">
-                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">บริการนำเข้าแรงงานต่างด้าว (คนใหม่)</h2>
-
-                </div>
+               
 
 
                 <!-- Modal Body -->
                 <div class=" modal-body  ">
+                    
                     <!-- Dynamic content will be loaded here -->
                 </div>
 
