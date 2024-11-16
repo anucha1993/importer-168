@@ -44,6 +44,7 @@ Route::get('contact',[ContactController::class,'index'])->name('contact');
 
 // Route::resource('/backend/articles', ArticleController::class);
 Route::get('articles/{id}',[ArticleController::class,'show'])->name('articles.show');
+
 Route::get('articles',[ArticleController::class,'web'])->name('articles.web');
 
 Route::middleware('auth')->group(function () {
@@ -59,4 +60,5 @@ Route::post('/ckeditor/upload', [ImageUploadController::class, 'upload'])->name(
 //บริการของเรา
 Route::get('services',[serviceController::class,'show'])->name('services.show');
 Route::get('services/{id}/modal/',[serviceController::class,'modalShow'])->name('services.modalShow');
+Route::get('services/{id}/view/',[serviceController::class,'view'])->name('services.view');
 // Route::resource('services',serviceController::class);

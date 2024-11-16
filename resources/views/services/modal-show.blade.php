@@ -15,7 +15,10 @@
         <div>
             <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-300">รายละเอียดพอร์มงาน:</h3>
             <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                {{$service->details}}
+                {!! Str::limit(strip_tags(preg_replace('/<img[^>]+>/i', '', htmlspecialchars_decode($service->details))), 200) !!}
+                <a href="{{url('services/'.$service->id.'/view')}}" class="inline-flex items-center font-medium underline underline-offset-4 text-blue-600 dark:text-primary-500 hover:no-underline">
+                    อ่านเพิ่มเติม..
+                </a>
             </p>
 
             <div class="grid grid-cols-2 gap-4 mt-4">

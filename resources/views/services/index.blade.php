@@ -91,12 +91,12 @@
 
 
                         <h2 class="ext-lg font-semibold leading-tight text-gray-900 dark:text-white">
-                           {!! $service->name !!}
+                          <a href="{{url('services/'.$service->id.'/view')}}">{!! $service->name !!}</a> 
                         </h2>
 
                         <div class="mt-2 flex items-center gap-2">
                             <div class="flex items-center">
-                                {!! Str::limit(strip_tags(preg_replace('/<img[^>]+>/i', '', $service->details)), 150) !!}
+                                {!! Str::limit(strip_tags(preg_replace('/<img[^>]+>/i', '', htmlspecialchars_decode($service->details))), 250) !!}
                                
                             </div>
                         </div>
