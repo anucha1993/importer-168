@@ -26,35 +26,91 @@
             <div class="flex justify-between items-start p-4 border-b border-gray-300 dark:border-gray-700">
                 <h2 class="text-md font-semibold text-gray-900 dark:text-white">{!! $service->name !!}</h2>
             </div>
-            <div class="flex justify-center mb-4 mt-4">
+            <div class="flex justify-left mb-4 mt-4">
                 <img src="{{ url($service->image_path) }}" alt="ประกอบการให้บริการแรงงานต่างด้าว"
-                    class="w-full h-auto rounded-lg shadow-md">
+                    class="w-85 h-auto rounded-lg shadow-md">
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-5 ">
 
                 <!-- คอลัมน์ซ้าย: รูปภาพประกอบและรายละเอียด -->
                 <div class="space-y-4">
                     <!-- รูปภาพ -->
-                    
+
 
                     <!-- ข้อมูลรายละเอียด -->
                     <div>
-  
+
                         <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">
 
                             {!! htmlspecialchars_decode($service->details) !!}
+                       
+
+                        {{-- 
+                        <div>
+                            <h2 class="text-xl font-semibold text-blue-800 mb-1">ทำไมต้องเลือกใช้บริการนี้?</h4>
+                                <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+                                    <li>ช่วยแก้ปัญหาขาดแคลนแรงงานในสาขาที่ต้องการ</li>
+                                    <li>ลดต้นทุนการผลิตให้กับผู้ประกอบการ</li>
+                                    <li>เพิ่มประสิทธิภาพการทำงานจากแรงงานที่มีความเชี่ยวชาญ</li>
+                                </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold text-blue-800 mb-1">กระบวนการและขั้นตอนที่สำคัญ?</h4>
+                                <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+                                    <li>ยื่นขออนุญาตจากกรมการจัดหางาน</li>
+                                    <li>คัดเลือกแรงงานจากประเทศต้นทาง</li>
+                                    <li>ตรวจสุขภาพแรงงาน</li>
+                                    <li>ขอวีซ่าทำงานจากสถานทูตไทย</li>
+                                    <li>ดำเนินการเดินทางเข้าประเทศ</li>
+
+                                </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold text-blue-800 mb-1">บริการจากบริษัทนำเข้าแรงงาน</h4>
+                                <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+                                    <li>การประสานงานกับหน่วยงานราชการ</li>
+                                    <li>การคัดเลือกแรงงานที่ตรงตามคุณสมบัติ</li>
+                                    <li>การจัดการเอกสารทั้งหมดที่เกี่ยวข้อง</li>
+                                    <li>การให้คำปรึกษาเกี่ยวกับกฎหมายแรงงาน</li>
+                                </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold text-blue-800 mb-1">ข้อควรระวังในการเลือกใช้บริการ</h4>
+                                <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+                                    <li>เลือกบริษัทที่มีใบอนุญาตและความน่าเชื่อถือ</li>
+                                    <li>ตรวจสอบสัญญาและเงื่อนไขอย่างละเอียด</li>
+                                    <li>ปฏิบัติตามกฎหมายแรงงานต่างด้าวอย่างเคร่งครัด</li>
+                                </ul>
+                        </div>
+
+                        <div>
+                            <h2 class="text-xl font-semibold text-blue-800 mb-1">หมายเหตุสำคัญ</h4>
+                                <p class="text-gray-700 leading-relaxed mb-2">
+                                    กฎหมายเกี่ยวกับการนำเข้าแรงงานต่างด้าวมีการปรับเปลี่ยนเสมอ
+                                    ควรติดตามข้อมูลล่าสุดและปรึกษาผู้เชี่ยวชาญ
+                                </p>
+                                <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+                                    <li>พระราชกำหนดการบริหารจัดการการทำงานคนต่างด้าว พ.ศ. ๒๕๖๐ และที่แก้ไขเพิ่มเติม</li>
+                                    <li>พระราชบัญญัติตรวจคนเข้าเมือง</li>
+                                    <li>พระราชบัญญัติการทำงานและคุ้มครองแรงงาน</li>
+                                </ul>
+                        </div> --}}
+
+
+
+
                         </p>
-                        
+
 
                         <div class="grid grid-cols-2 gap-4 mt-4">
                             <div>
-                                <h4 class="text-md  font-medium text-gray-700 dark:text-gray-300">ระยะเวลาดำเนินการ:</h4>
+                                <h2 class="text-xl font-semibold text-blue-800 mb-1">ระยะเวลาดำเนินการ:</h4>
                                 <ul class="text-md  list-disc pl-5 text-gray-600 dark:text-gray-400 space-y-1">
                                     {!! htmlspecialchars_decode($service->period) !!}
                                 </ul>
                             </div>
                             <div>
-                                <h4 class="text-md font-medium text-gray-700 dark:text-gray-300">สัญชาติ:</h4>
+                                <h2 class="text-xl font-semibold text-blue-800 mb-1">สัญชาติ:</h4>
                                 <p class="text-md  text-gray-600 dark:text-gray-400">
                                     {!! htmlspecialchars_decode($service->nationality) !!}
                                 </p>
@@ -68,7 +124,7 @@
                         </div>
 
                         <!-- ข้อมูลเพิ่มเติม -->
-                        
+
                     </div>
                 </div>
 

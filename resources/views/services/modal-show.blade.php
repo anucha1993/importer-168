@@ -49,7 +49,7 @@
     </div>
 
     <!-- คอลัมน์ขวา: ขั้นตอนการดำเนินการและเอกสาร -->
-    <div class="space-y-6 overflow-y-auto p-4" style="height: 600px;" style="font-size: 5px">
+    <div class="space-y-6 overflow-y-auto p-1" style="height: 600px; font-size: 14px">
         {!! htmlspecialchars_decode($service->content) !!}
     </div>
 </div>
