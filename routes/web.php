@@ -51,6 +51,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/backend/articles/',[ArticleController::class,'index'])->name('articles.index');
     Route::get('/backend/articles/create',[ArticleController::class,'create'])->name('articles.create');
     Route::get('/backend/edit/{id}/articles/',[ArticleController::class,'edit'])->name('articles.edit');
+    Route::put('/backend/articles/store',[ArticleController::class,'store'])->name('articles.store');
     Route::put('/backend/update/{id}/articles/',[ArticleController::class,'update'])->name('articles.update');
     Route::delete('/backend/destroy/{id}/articles/',[ArticleController::class,'destroy'])->name('articles.destroy');
 });
