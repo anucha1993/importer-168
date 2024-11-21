@@ -1,58 +1,30 @@
+<div>
+    <h1 class="text-xl font-bold text-blue-900 mb-2 mt-2">ขั้นตอนการดำเนินการนำเข้าแรงงานต่างด้าว</h4>
+    <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+        <li>N/A</li>
+    </ul>
+</div>
 
-               <h1 class="text-xl font-bold text-blue-900 mb-2">บริการนำเข้าแรงงานต่างด้าว MOU 3 สัญชาติ</h1>
-               <p class="text-gray-700 leading-relaxed mb-2">
-                   กระบวนการนำเข้าแรงงานต่างด้าวจาก 3 ประเทศเพื่อนบ้าน (เมียนมา, ลาว, กัมพูชา) ตามข้อตกลงร่วมกัน (MOU) โดยมีบริษัทหรือองค์กรในประเทศไทยดำเนินการ เพื่อตอบสนองความต้องการแรงงานในอุตสาหกรรมต่าง ๆ และปฏิบัติตามกฎหมายที่เกี่ยวข้อง
-               </p>
+<!-- เอกสารที่นายจ้างต้องเตรียม -->
+<div>
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">ขั้นตอนการดำเนินการนำเข้าแรงงานต่างด้าว</h4>
+    <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+        <li> หนังสือเดินทาง </li>
+            <li>ใบแจ้งกำหนดนัดรายงานตัวล่าสุด </li>
+            <li> สำเนาใบอนุญาตทำงาน (ถ้ามี) </li>
+            <li> เอกสารหรือหนังสือมอบอำนาจหากแรงงานต่างด้าวไม่ได้เดินทางไปได้ด้วยตนเอง</li>
+            <li> สำเนาบัตรประชาชนของผู้ที่มอบอำนาจ  และผู้มอบอำนาจ</li>
+        
+    </ul>
+</div>
 
-              
-              <div>
-               <h2 class="text-xl font-semibold text-blue-800 mb-1">ทำไมต้องเลือกใช้บริการนี้?</h4>
-               <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
-                   <li>ช่วยแก้ปัญหาขาดแคลนแรงงานในสาขาที่ต้องการ</li>
-                   <li>ลดต้นทุนการผลิตให้กับผู้ประกอบการ</li>
-                   <li>เพิ่มประสิทธิภาพการทำงานจากแรงงานที่มีความเชี่ยวชาญ</li>
-               </ul>
-           </div>
-           <div>
-               <h2 class="text-xl font-semibold text-blue-800 mb-1">กระบวนการและขั้นตอนที่สำคัญ?</h4>
-               <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
-                   <li>ยื่นขออนุญาตจากกรมการจัดหางาน</li>
-                   <li>คัดเลือกแรงงานจากประเทศต้นทาง</li>
-                   <li>ตรวจสุขภาพแรงงาน</li>
-                   <li>ขอวีซ่าทำงานจากสถานทูตไทย</li>
-                   <li>ดำเนินการเดินทางเข้าประเทศ</li>
+<!-- เอกสารที่นายจ้างจะได้รับ -->
+<div>
+    <h2 class="text-xl font-semibold text-blue-800 mb-2">เอกสารที่นายจ้างต้องเตรียม</h4>
+    <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
+        <li>N/A</li>
+           
+    </ul>
+</div>
 
-               </ul>
-           </div>
-           <div>
-               <h2 class="text-xl font-semibold text-blue-800 mb-1">บริการจากบริษัทนำเข้าแรงงาน</h4>
-               <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
-                   <li>การประสานงานกับหน่วยงานราชการ</li>
-                   <li>การคัดเลือกแรงงานที่ตรงตามคุณสมบัติ</li>
-                   <li>การจัดการเอกสารทั้งหมดที่เกี่ยวข้อง</li>
-                   <li>การให้คำปรึกษาเกี่ยวกับกฎหมายแรงงาน</li>
-               </ul>
-           </div>
-           <div>
-               <h2 class="text-xl font-semibold text-blue-800 mb-1">ข้อควรระวังในการเลือกใช้บริการ</h4>
-               <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
-                   <li>เลือกบริษัทที่มีใบอนุญาตและความน่าเชื่อถือ</li>
-                   <li>ตรวจสอบสัญญาและเงื่อนไขอย่างละเอียด</li>
-                   <li>ปฏิบัติตามกฎหมายแรงงานต่างด้าวอย่างเคร่งครัด</li>
-               </ul>
-           </div>
 
-           <div>
-               <h2 class="text-xl font-semibold text-blue-800 mb-1">หมายเหตุสำคัญ</h4>
-                              <p class="text-gray-700 leading-relaxed mb-2">
-                              กฎหมายเกี่ยวกับการนำเข้าแรงงานต่างด้าวมีการปรับเปลี่ยนเสมอ ควรติดตามข้อมูลล่าสุดและปรึกษาผู้เชี่ยวชาญ
-                              </p>
-               <ul class="text-md list-disc pl-5 text-gray-700 dark:text-gray-400 space-y-1">
-                   <li>พระราชกำหนดการบริหารจัดการการทำงานคนต่างด้าว พ.ศ. ๒๕๖๐ และที่แก้ไขเพิ่มเติม</li>
-                   <li>พระราชบัญญัติตรวจคนเข้าเมือง</li>
-                   <li>พระราชบัญญัติการทำงานและคุ้มครองแรงงาน</li>
-               </ul>
-           </div>
-
-       
-         

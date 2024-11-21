@@ -90,7 +90,7 @@
                         </div>
 
 
-                        <h2 class="ext-lg font-semibold leading-tight text-gray-900 dark:text-white">
+                        <h2 class="ext-lg font-semibold leading-tight text-blue-900 dark:text-white">
                           <a href="{{url('services/'.$service->id.'/view')}}">{!! $service->name !!}</a> 
                         </h2>
 
