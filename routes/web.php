@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\aboutControler;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ArticleController;
@@ -39,7 +40,8 @@ Route::get('/',[HomeController::class,'index'])->name('home.page');
 Route::get('home',[HomeController::class,'index'])->name('home');
 //contact
 Route::get('contact',[ContactController::class,'index'])->name('contact');
-
+//เกี่ยวกับเรา
+Route::get('about-us',[aboutControler::class,'index'])->name('about');
 //บทความ
 
 // Route::resource('/backend/articles', ArticleController::class);
