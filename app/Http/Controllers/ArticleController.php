@@ -20,8 +20,9 @@ class ArticleController extends Controller
 
     public function web()
     {
-        $articles = Article::with('category')->latest()->get();
-        return view('articles.web', compact('articles'));
+        $articles = Article::with('category')->where('category_id',1)->latest()->get();
+        $articles3 = Article::with('category')->where('category_id',3)->latest()->get();
+        return view('articles.web', compact('articles','articles3'));
     }
     public function create()
     {
