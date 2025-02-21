@@ -334,7 +334,7 @@
                     <p class="text-gray-600">คู่มือการขออนุญาตทำงานของแรงงานต่างด้าว สำหรับนายจ้าง-สถานประกอบการ</p>
                 </div>
 
-{{-- 
+
                 <div class="text-center">
                     <a href="https://www.doe.go.th/prd/download/download_by_pool_file/63082" target="_blank"
                         title="link KM การดำเนินงานของศูนย์แรกรับเข้าทำงานและสิ้นสุดการจ้าง">
@@ -342,7 +342,7 @@
                             class="images-cover img-kwonlg" alt="KM การดำเนินงานของศูนย์แรกรับเข้าทำงานและสิ้นสุดการจ้าง">
                     </a>
                     <p class="text-gray-600">KM การดำเนินงานของศูนย์แรกรับเข้าทำงานและสิ้นสุดการจ้าง </p>
-                </div> --}}
+                </div>
 
                 <div class="text-center">
                     <a href="https://www.doe.go.th/prd/download/download_by_pool_file/46401" target="_blank"
@@ -366,7 +366,7 @@
                 </div>
 
 
-                <div class="text-center">
+                {{-- <div class="text-center">
                     <a href="https://www.doe.go.th/prd/download/download_by_pool_file/32420" target="_blank"
                         title="link แนวปฏิบัติการนำคนต่างด้าวมาทำงานกับนายจ้างในประเทศ ตามบันทึกความเข้าใจว่าด้วยความร่วมมือในการจ้างแรงงานระหว่างรัฐ (MOU)">
                         <img src="https://www.doe.go.th/prd/assets/upload/images/alien/3f3410c826427343212a89a5de791970.jpg"
@@ -375,7 +375,7 @@
                     </a>
                     <p class="text-gray-600">แนวปฏิบัติการนำคนต่างด้าวมาทำงานกับนายจ้างในประเทศ
                         ตามบันทึกความเข้าใจว่าด้วยความร่วมมือในการจ้างแรงงานระหว่างรัฐ (MOU)</p>
-                </div>
+                </div> --}}
 
 
                 <div class="text-center">
