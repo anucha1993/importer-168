@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FaqController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\serviceController;
 use App\Http\Controllers\ImageUploadController;
@@ -42,6 +43,9 @@ Route::get('home',[HomeController::class,'index'])->name('home');
 Route::get('contact',[ContactController::class,'index'])->name('contact');
 //เกี่ยวกับเรา
 Route::get('about-us',[aboutControler::class,'index'])->name('about');
+//คำถามที่พบบ่อย
+Route::get('faqs',[FaqController::class,'index'])->name('faq.index');
+
 //บทความ
 
 // Route::resource('/backend/articles', ArticleController::class);
