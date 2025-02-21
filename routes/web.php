@@ -44,7 +44,7 @@ Route::get('contact',[ContactController::class,'index'])->name('contact');
 //เกี่ยวกับเรา
 Route::get('about-us',[aboutControler::class,'index'])->name('about');
 //คำถามที่พบบ่อย
-Route::get('faqs',[FaqController::class,'index'])->name('faq.index');
+Route::get('faq',[FaqController::class,'index'])->name('faq.index');
 
 //บทความ
 
