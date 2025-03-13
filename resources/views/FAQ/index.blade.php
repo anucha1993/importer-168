@@ -12,7 +12,177 @@
     </div>
 
 
-    <section class="bg-white py-8">
+    <section class="bg-white py-8 antialiased  md:py-16">
+        <div class="mx-auto max-w-screen-lg px-4 2xl:px-0">
+          <div class="lg:flex lg:items-center lg:justify-between lg:gap-4">
+            <h2 class="shrink-0 text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">ถามตอบ ข้อสงสัยเกี่ยวกับแรงงานต่างด้าว ?</h2>
+      
+          
+          </div>
+      
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-200 dark:divide-gray-800">
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“การนำเข้าแรงงานต่างด้าวจำเป็นต้องใช้บริษัท นำคนต่างด้าวมาทำงานในประเทศ หรือไม่ ?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">การนำเข้าแรงงานต่างด้าว ทั้ง 3 สัญชาติ มาทำงานในประเทศ ทางนายจ้างสามารถดำเนินการด้วย  ได้  2 กรณี </p>
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400"><b>A :</b>  ตนเองได้ โดยยื่นเอกสารที่สำนักงานจัดหางาน จังหวัด และจัดเตรียมเอกสารตามกระบวนการ ซึ่งจะต้องมีการวางประกันการจ้างแรงงานต่างด้าว ตามมาตรา 46</p>
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400"><b>B :</b> หรือสามารถใช้บริการจากบริษัท นำคนต่างด้าวมาทำงานในประเทศ ที่จดทะเบียนถูกต้องกับกรมการจัดหางานได้ ซึ่งจะมีความน่าเชื่อถือ กว่า บริษัทที่ไม่ได้จดทะเบียน</p>
+              </div>
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“บริษัทนำเข้าแรงงานต่างด้าวหรือนายหน้าต่างกันอย่างไร ?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    บริษัทนำเข้าแรงงานต่างด้าว หรือบริษัทนำเข้าต่างด้าว หากได้รับการจดทะเบียนถูกต้องกับกรมการจัดหางาน จะ มีความน่าเชื่อถือ และ สร้างความมั่นใจ ใจให้กับทางนายจ้าง หรือ ผู้ว่า จ้างได้ เนื่องจากทางบริษัทเหล่านี้จะมีการวางประกันค่าความเสียหายให้กับทางนายจ้างหรือผู้ใช้บริการ จำนวน 5 ล้านบาท  หากไม่ได้รับการดูแลหรือ ทอดทิ้งงาน ทางนายจ้างสามารถ เรียกร้องค่าเสียหายได้ กับทางกรมการจัดหางาน โดยการหักจากเงินประกัน ที่วางไว้  หากนายจ้าง ไปเรียกใช้บริการจากบริษัท หรือนายหน้า เถื่อนที่ไม่ได้รับการรับรองอาจถูก เอารัดเอาเปรียบหรือ ใหม่ ทำงานทอดทิ้ง การทำเอกสาร เป็นเหตุให้แรงงานต่างด้าวไม่ได้รับ เอกสารที่ถูกต้องตามกฎหมายได้
+                </p>
+              </div>
+              
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“การนำเข้าแรงงานต่างด้าวตามระบบ MOU  กับแรงงานต่างด้าว บัตรชมพู มีความแตกต่างกันอย่างไร และสวัสดิการแตกต่างกันหรือไม่ ?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    แรงงานต่างด้าว ตาม ตามระบบ MOU เป็นแรงงานที่ ต้องรอ ผ่านกระบวนการการนำเข้าให้ถูกต้องเสียก่อน จึงจะ มาทำงานกับทางนายจ้าง ซึ่งจาก สามารถทำงานได้ตั้งแต่วันแรกที่เดินทางเข้ามาถึง เนื่องจากเป็นการเตรียมและยื่นเอกสาร ล่วงหน้า ซึ่งมีความถูกต้องตามกฎหมายอยู่แล้ว ตั้งแต่ต้น
+                     ส่วนแรงงานต่างด้าวบัตรชมพูนั้น เป็นแรงงา น ที่อยู่ในประเทศไทย ที่ได้รับการขึ้นทะเบียน หรือจด ทะเบียน ตามมติ ครม. ซึ่งแรงงานบางคนอาจมีสถานะ ยังไม่ถูกต้อง หรือทางนายจ้างจำเป็นต้องไปเปลี่ยนแปลงเอกสารหรือเปลี่ยนนายจ้างให้ถูกต้องเสียก่อนหากสถานะ ของเอกสารแรงงานต่างด้าวบัตรชมพูนั้นยังคงมีสถานะอยู่ แรงงาน วีซ่าขาดหรือใบอนุญาตทำงานขาด โดยมีการแจ้งออกเกิน 60 วัน จนเป็นเหตุที่ทำให้ไม่สามารถเปลี่ยนนายจ้างได้
+
+                </p>
+              </div>
+               
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“แรงงานต่างด้าวบัตรชมพู ที่มีการต่ออายุ ตั้งแต่วันที่ 13 กุมภาพันธ์ 2568 จะสามารถเปลี่ยนนายจ้างได้เลยหรือไม่ ?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    แรงงานต่างด้าวกลุ่มบัตรชมพู ตามมติ ครม เมื่อวันที่ 24กันยายน 2567 ที่ผ่านมา เป็นการต่ออายุในลักษณะ MOU หากแรงงานต่างด้าวประสงค์จะเปลี่ยนนายจ้างจำเป็นต้องขออนุญาตนายจ้างโดยยืน แจ้งออก โดยไม่ติดค้างค่าใช้จ่ายจึงจะสามารถเปลี่ยนนายจ้างได้ หากไม่เช่นนั้น สถานะ ของแรงงานต่างด้าวจะกลายเป็น กลุ่มหลบหนี และจะไม่สามารถเปลี่ยนนายจ้างได้ ซึ่งเป็นนโยบายที่ออกมาเพื่อเป็นการปกป้องสิทธิ์ของทางนายจ้างหรือผู้ว่าจ้าง ที่แรงงานต่างด้าวหลบ หนีออกไปเปลี่ยนนายจ้างโดยเสรี
+                </p>
+              </div>
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“การต่อวีซ่า แรงงานนำเข้าตามระบบMOU หรือเป็นแรงงา น ที่มีบัตรชมพู หาก หนังสือเดินทาง หมดอายุก่อนจะทำอย่างไร?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    ถ้าอายุของหนังสือเดินทางของแรงงานต่างด้าว มีไม่ถึงตามสิทธิที่สมควรจะได้รับ ให้นายจ้างหรือแรงงานต่างด้าวไปทำหนังสือเดินทางเล่มใหม่ โดยมีการอ้างอิงจากหนังสือเดินทางเล่นเดิม จากนั้นไปทำการย้ายตรา จากเล่มเดิมสู่เล่มใหม่ และไปขอขยายสิทธิ ของวีซ่าตามอายุที่สมควรจะได้รับ ก็สามารถพำนักอยู่ในประเทศไทยได้ตามอายุและสิทธิเดิมที่มีอยู่
+                </p>
+              </div>
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“ข้อดีหรือ เสียเปรียบของแรงงานต่างด้าว แบบนำเข้า MOU กับแรงงานกลุ่มมติ ครม (บัตรชมพู)?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    กลุ่ม ต่างด้าว MOU สำหรับแรงงานนำเข้าตามระบบMOU มีข้อดี ตรงที่การเปลี่ยนนายจ้างหรือการโยกย้ายนายจ้างนั้น จะค่อนข้างยุ่งยากและลำบากกว่า เนื่องจาก ขั้นตอนและมีระเบียบที่ชัดเจนหากนายจ้าง ไม่ยินยอมให้เปลี่ยนนายจ้าง ทางแรงงานก็ไม่สามารถไปหานายจ้างอื่นได้ อีกทั้งสามารถคัดสรรแรงงานหรือจำนวนและสัดส่วน เป็นไปตามที่นายจ้างต้องการ
+                    <b>แต่มีข้อเสียคือ ใช้ระยะเวลาใน การ ดำเนินการนาน หรืออาจต้องรอเวลา หาก ทางนายจ้างจำเป็นต้องใช้แรงงานด่วนจะไม่ตอบโจทย์เลย</b> กลุ่ม มติ ครม บัตรชมพู แรงงานกลุ่มนี้ ถ้ารับสมัครได้คนมาทำงานเลย ไม่ต้องรอเวลา ตอบโจทย์นายจ้างที่มีความต้องการจ้างแรงงานเร่งด่วน แต่มีข้อเสียคือแรงงาน สามารถเปลี่ยนนายจ้างหรือโยกย้าย ได้อิสระเสรี มีความเสี่ยง เรื่องของการ ออกจากงานค่อนข้างสูง หากสวัสดิการและการดูแลไม่ได้ดี เท่าที่ควร หรือไม่ได้เป็นไปตามความต้องการของ น้องๆ ต่างด้าวกลุ่มนี้ และบางครั้งในการรับสมัคร ก็อาจจะไม่ได้รับสัดส่วนหรือคุณสมบัติตามที่นายจ้างต้องการนัก
+                </p>
+              </div>
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“แรงงานต่างด้าว ที่ออกจากงานแล้ว สามารถ แจ้งเข้าได้ภายในกี่วัน ถ้าออกจากทางนายจ้างเก่ามา?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    (ตาม มติ ครม 24 กันยายน 2567) ให้ขยายระยะเวลาการเปลี่ยนนายจ้างตามมาตรา ๕๒ และระยะเวลาการทำงานกับ นายจ้างรายใหม่ตามมาตรา ๕๕ วรรคหนึ่ง สำหรับคนต่างด้าวซึ่งเดินทางเข้ามาทำงางานในราชอาจักร ตามกฎหมายว่าด้วยคนเข้าเมือง ภายใต้บันทึกความตกลงหรือบันทึกความเข้าใจที่รัฐบาลไทยทำไว้กับ รัฐบาลต่างประเทศ เป็นระยะเวลา  60 (หกสิบ) วัน จากเดิม เพียง 30 วันนับแต่วันที่เลิกทำงานกับนายจ้างรายเดิม ทั้งนี้ ตั้งแต่บัดนี้เป็นต้นไป จนถึงวันที่ ๑๓ กุมภาพันธ์ พ.ศ. ๒๕๗๒
+                </p>
+
+              </div>
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“เอกสารของ แรงงาน ต่างด้าวMOU กับ แรงงาน ต่างดาว มติ ครม บัตรชมพู หรือแรงงานต่างด้าวที่ขึ้นทะเบียน ต่างกันอย่างไร?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                  - <b>แรงงานต่างด้าวMOU จำเป็นต้องมีเอกสารอยู่ 3 ชนิด</b> จึงจะมีสิทธิ์อยู่ในราชอาณาจักรไทยได้อย่างถูกต้อง คือ  1. หนังสือเดินทาง  2.  วีซ่าที่อยู่ในเล่มหนังสือเดินทาง และ 3. ใบอนุญาตทำงาน ก็ถือว่าครบถ้วน <br>
+                  - <b>ส่วนแรงงานต่างด้าวมติ ครม บัตรชม</b>พู หรือแรงงานต่างด้าวที่ขึ้นทะเบียนในประเทศไทย จำเป็นต้องมีเอกสารอยู่ด้วยกัน 4 อย่างคือ  1. หนังสือเดินทางหรือเอกสารที่ใช้แทนหนังสือเดินทางอย่างใดอย่างหนึ่ง   2.ใบอนุญาตทำงาน   3.วีซ่าที่อยู่ในเล่ม หนังสือเดินทางและบัตรชมพู จึงจะถือว่าครบถ้วน แต่ในบางครั้ง ก็ไม่สามารถทำบัตรชมพูได้ ทางแรงงานต่างด้าวจำเป็นต้องมีเอกสารที่ใช้แทนก็คือ ใบ บต50 อ.6  แทนก็ได้
+
+
+                </p>
+                
+              </div>
+
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“แรงงานต่างด้าวที่อยู่ในประเทศไทยปัจจุบัน มีสิทธิ์อยู่ได้สูงสุดกี่ปี?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    โดยปกติตามพระราชบัญญัติคนเข้าเมือง และตามข้อตกลงของ ทั้ง 2 ประเทศ ในการนำเข้า แรงงานต่างด้าว จะกำหนดอายุของวีซ่าให้คราวๆละ 2 ปี และต่ออายุได้อีกหนึ่งครั้ง รวมตัวทั้งสิ้น 4 ปี แต่ ด้วย สถานการณ์ ทาง การเมือง และ ความ ไม่ สงบ ในบางประเทศ และความจำเป็นเร่งด่วนเพื่อรองรับ การว่าจ้างแรงงานในภาคอุตสาหกรรมที่ยังขาดแคลนแรงงานอยู่  รวมไป ถึง โรคระบาดของโควิดที่ผ่านมา จึงมีการขยาย อายุของวีซ่า หรือการขึ้นทะเบียนให้กับแรงงานต่างด้าว ตามวาระ หรือตามความจำเป็นตลอดมา ทั้งนี้ก็ต้องรอประกาศ จากกรมการจัดหางาน หรือกระทรวงแรงงาน และมติ ครม. เป็นคร่าวคร่าวไป
+                </p>
+              </div>
+
+              <div class="space-y-4 py-6 md:py-8">
+                <div class="grid gap-4">
+                  <div>
+                    <span class="inline-block rounded bg-blue-900 px-2.5 py-0.5 text-xs font-medium text-white dark:bg-green-900 dark:text-green-300 md:mb-0">คุณถาม </span>
+                  </div>
+                  <p class="text-xl font-semibold text-gray-900 hover:underline dark:text-white">“ แรงงานกัมพูชาและลาวที่ถือวีซ่าท่องเที่ยวเข้ามาในประเทศ สามารถทำงาน ก่อนได้หรือไม่?”</p>
+                </div>
+                <span class="inline-block rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300 md:mb-0">เราตอบ </span>
+            
+                <p class="text-base font-normal text-gray-900 dark:text-gray-400">
+                    คำตอบคือไม่ได้ เนื่องจาก วีซ่าของ แรงงานเข้ามา นั้นเป็นวีซ่าท่องเที่ยว หากทางนายจ้าง ต้องการ ให้คนต่างด้าวนั้นทำงานได้อย่างถูกต้อง จำเป็นต้องมีการแปลงสถานะ ของแรงงานต่างด้าว โดย กระบวนการ นำเข้าแรงงานเป็นMOU ให้ถูกต้องเสียก่อน หากมีการตรวจ จับ ทางนายจ้างและแรงงานต่างด้าว จะมีความผิด รวมไปถึงคนต่างด้าวอาจ ถูกขึ้นบัญชีดำ ห้ามเข้าประเทศก็ได้
+                </p>
+              </div>
+
+              
+
+
+
+            </div>
+          </div>
+      
+        
+        </div>
+      </section>
+
+
+    <section class="bg-gray-50 py-8">
         <div class="max-w-screen-md mx-auto px-4">
             <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">คำถามที่พบบ่อย ?</h2>
             <div class="divide-y divide-gray-200">
@@ -161,6 +331,9 @@
             </div>
         </div>
     </section>
+
+
+    
 
 
     <section class="bg-white py-8 antialiased dark:bg-gray-900 md:py-16 mb-20">

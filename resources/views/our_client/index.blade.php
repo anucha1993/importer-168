@@ -24,13 +24,6 @@
                    @for ($i = 1 ; $i < $count; $i++)
                    <img src="{{url('logo/client/'.$i.'.png')}}" alt="ลูกค้านำเข้าMOU" class="rounded-full mr-2" width="150">       
                    @endfor
-               
-                                     
-              
-              
-                
-                
-                
             </div>
         </div>
     </section>

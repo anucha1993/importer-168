@@ -40,7 +40,7 @@
 
             &nbsp;
 
-            <a href="#" class="flex items-center space-x-1 text-white">
+            <a href="mailto:importer168@gmail.com" class="flex items-center space-x-1 text-white">
                 <svg class="w-6 h-6 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                     <path
@@ -56,12 +56,12 @@
             <ul
                 class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-blue-900 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                    <a href="#" class="flex items-center text-white">
+                    <a href="https://www.facebook.com/importer168" class="flex items-center text-white">
                         <span>Facebook</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="https://line.me/ti/p/nuBTEHY27p"
                         class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
                         aria-current="page">Line</a>
                 </li>
