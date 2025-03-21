@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-labour')
 
 @section('content')
     <style>
@@ -15,7 +15,7 @@
                <!-- Carousel wrapper -->
                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                    <div class="duration-200 ease-linear" data-carousel-item style="display: block;">
-                       <img src="{{URL::asset('./carousel/ข่าวสาร และความรู้แรงงานต่างด้าว.svg')}}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                       <img src="{{url('carousel/ข่าวสาร และความรู้แรงงานต่างด้าว.webp')}}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                    </div>
                </div>
            </div>
@@ -28,7 +28,7 @@
                     <address class="flex items-center mb-6 not-italic">
                         <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                             <img class="mr-4 w-16 h-16 rounded-full border-2 border-gray-100"
-                                src="{{ URL::asset('images/contact/impoter-จิรวัฒน์.svg') }}" alt="Jese Leos">
+                                src="{{ url('images/contact/impoter-จิรวัฒน์.svg') }}" alt="จิรวัฒน์">
                             <div>
                                 <a href="#" rel="author"
                                     class="text-xl font-bold text-gray-900 dark:text-white"> เขียนโดย : จิรวัฒน์ (เจมส์)</a>
@@ -45,7 +45,7 @@
                         class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
                         {{ $article->title }}</h1>
                         <div class="mt-6 sm:mt-8 lg:mt-0">
-                              <img src="{{ asset($article->image_path) }}" alt="{{ $article->title }}">
+                              <img src="{{ url($article->image_path) }}" alt="{{ $article->title }}">
                           </div>
                 </header>
                 {!! $article->content !!}
@@ -54,6 +54,35 @@
         </div>
     </main>
 
+    <aside aria-label="Related articles" class="py-8 lg:py-10 bg-gray-100 dark:bg-gray-800 mx-full ">
+        <div class="px-4 mx-auto max-w-screen-xl ">
+            <h2 class="mb-8 text-2xl font-bold text-gray-900 dark:text-white ">บริการของเรา และข่าวสาร</h2>
+            <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
+                @foreach ($articles as $article)
+                    
+                <article class="max-w-xs">
+                    <a href="{{url('articles/'.$article->id)}}">
+                        <img src="{{url($article->image_path)}}" class="mb-5 rounded-lg" alt="Image 1">
+                    </a>
+                    <h5 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                        <a href="#">{{$article->title}}</a>
+                    </h5>
+                    
+                    <p class="mb-4 text-gray-500 dark:text-gray-400">
+                        {!! Str::limit(strip_tags(preg_replace('/<img[^>]+>/i', '', $article->content)), 120) !!}
+                    </p>
+                    <a href="{{url('articles/'.$article->id)}}" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                        อ่านเพิ่มเติม..
+                    </a>
+                </article>
+                @endforeach
+    
+            </div>
+        </div>
+    
+      </aside>
+
+    <br>
     <br>
     <br>
 @endsection
