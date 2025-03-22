@@ -19,8 +19,9 @@
                 <p class="text-gray-500 sm:text-xl dark:text-gray-400">การนำเข้าแรงงานต่างด้าวภายใต้บันทึกข้อตกลงความร่วมมือ
                     (MOU) เพื่อให้แรงงานสามารถเข้ามาทำงานในประเทศไทยได้อย่างถูกกฎหมาย โดยมีขั้นตอนหลัก ๆ ดังนี้</p>
             </div>
-
+            <a href="./import-mou/ขั้นตอนนำเข้า1.png">
             <img class="w-full dark:hidden" src="./import-mou/ขั้นตอนนำเข้า1.png" alt="dashboard image">
+            </a>
 
 
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">ขั้นตอนที่ 1 - 5</h2>
@@ -45,8 +46,10 @@
                 </li>
             </ul>
 
+            <a href="./import-mou/ขั้นตอนนำเข้า02.png">
 
             <img class="w-full dark:hidden" src="./import-mou/ขั้นตอนนำเข้า02.png" alt="dashboard image">
+            </a>
 
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">ขั้นตอนที่ 6 - 11</h2>
             <ul class=" space-y-1 text-gray-500 list-none list-inside dark:text-gray-400">
@@ -91,11 +94,15 @@
                     เอกสารแรงงานต่างด้าวที่นายจ้างจะได้รับจากเรานั้น มีรายละเอียดและประเภทที่แตกต่างกันไป ขึ้นอยู่กับขั้นตอนการดำเนินการและประเภทของแรงงานต่างด้าว โดยทั่วไปแล้ว นายจ้างจะได้รับเอกสารสำคัญดังต่อไปนี้
                 </p>
             </div>
+            <a href="./import-mou/สิ่งที่นายจ้างจะได้รับ-impoter168.png">
 
             <img class="w-full dark:hidden" src="./import-mou/สิ่งที่นายจ้างจะได้รับ-impoter168.png" alt="dashboard image">
+        </a>
 
         </div>
     </section>
+    <br>
+    <br>
     <br>
     <br>
 
