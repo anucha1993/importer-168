@@ -9,6 +9,7 @@ use App\Http\Controllers\FaqController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\serviceController;
 use App\Http\Controllers\ImageUploadController;
+use App\Http\Controllers\importMouController;
 use App\Http\Controllers\ourClientController;
 
 /*
@@ -48,6 +49,8 @@ Route::get('about-us',[aboutControler::class,'index'])->name('about');
 Route::get('faq',[FaqController::class,'index'])->name('faq.index');
 //ลูกค้าของเรา
 Route::get('our-client',[ourClientController::class,'index'])->name('ourclient.index');
+// MOU
+Route::get('mou',[importMouController::class,'index'])->name('mou.index');
 
 //บทความ
 

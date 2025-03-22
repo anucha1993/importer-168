@@ -192,7 +192,7 @@
 
                 </div>
                 <div class="text-center text-gray-500 dark:text-gray-400">
-                    <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="/images/contact/importer-สุจิตา.svg"
+                    <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="./images/contact/importer-สุจิตา.svg"
                         alt="Helene Avatar">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         <a href="#">สุจิตา (ตุ๊กตา)</a>
